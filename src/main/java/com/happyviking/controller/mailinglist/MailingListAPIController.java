@@ -19,7 +19,7 @@ public class MailingListAPIController {
     public @ResponseBody List<User> get(HttpServletResponse response) throws IOException {
 
         return new ArrayList<User>() {{
-            add(new User("jason", "stoltzfus", "jastoltz24@gmail.com"));
+            add(new User("jason", "stoltzfus", "test@user.com"));
         }};
     }
 
